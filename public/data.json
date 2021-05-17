@@ -1,0 +1,52 @@
+{
+  "projects":[
+   {
+"id":"0",
+"Project_name":"A random quote generator", 
+"description":"It's a random quote generator, which displays quotations on a page, and can be controlled by the user. ", 
+"technologies":["Html 5, css3, javascript"],
+"live_link":" https://isaaccurry03.github.io/A-Random-Quote-Generator/",
+"github_link": "https://github.com/IsaacCurry03/A-Random-Quote-Generator",
+"image_urls": ["/public/images/api-request-1.png","/public/images/api-request-2.png"]
+  },
+  {
+"id":"1",
+"Project_name":"Interactive-Form", 
+"description":"Full Stack JavaScript developers create forms to collect information from users for nearly every website and application they build. For this project, you’ll use your skills to enhance a form so that it’s engaging, interactive, and easy to use. ", 
+"technologies":["Html 5, css3, javascript"],
+"live_link":" https://isaaccurry03.github.io/Interactive-Form/",
+"github_link": "https://github.com/IsaacCurry03/Interactive-Form",
+"image_urls": ["/public/images/form-1.png","/public/images/form-2.png"]
+  },
+  {
+"id":"2",
+"Project_name":"Oop Game Show App", 
+"description":" This project is both fun and a great way to show off your JavaScript skills -- you'll learn a lot more about JavaScript and working with the DOM, or Document Object Model. You'll also start using object-oriented programming (OOP) principles just like professional JavaScript developers. ", 
+"technologies":["Html 5, css3, javascript"],
+"live_link":" https://isaaccurry03.github.io/OOP-Game-Show-App/",
+"github_link": "https://github.com/IsaacCurry03/OOP-Game-Show-App",
+"image_urls": ["/public/images/oop-1.png","/public/images/oop-2.png"]
+  },
+  {
+"id":"3",
+"Project_name":"Data-Pagintation and Filtering", 
+"description":"In this project I wrote a program to better display a long list of student information. ", 
+"technologies":["Html 5, css3, javascript"],
+"live_link":" https://isaaccurry03.github.io/data-pagination-and-filtering/",
+"github_link": "https://github.com/IsaacCurry03/data-pagination-and-filtering",
+"image_urls": ["/public/images/Data-Pagintation-1.png","/public/images/Data-Pagintation-2.png"]
+  },
+  {
+"id":"4",
+"Project_name":"Api Request", 
+"description":"In this unit I used JavaScript and AJAX to make a request of a public API, or Application Programming Interface. Many sites — Twitter, Facebook, IMDB, and Wikipedia to name a few — offer a vast sea of data that you can access and display on your own web pages. Using JavaScript, you’ll create an employee directory by communicating with a third-party API.", 
+"technologies":["Html 5, css3, javascript"],
+"live_link":"https://isaaccurry03.github.io/api-request-project-5-/",
+"github_link": "https://github.com/IsaacCurry03/api-request-project-5-",
+"image_urls": ["/public/images/api-request-1.png","/public/images/api-request-2.png"]
+  }
+  
+
+  ]
+  
+}
