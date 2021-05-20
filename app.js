@@ -27,7 +27,7 @@ app.get("/about", (req, res) => {
 // SET 'PROJECTS' ROUTE
 app.get("/projects/:id", (req, res) => {
     const { id } = req.params;
-    const project = projects[id -1];
+    const project = projects[id];
     res.render("project", { project });
 });
 
@@ -39,20 +39,13 @@ app.use((req, res, next) => {
 });
   
 
-// // RENDER ERROR PAGE WITH ERROR PASSED IN
-// app.use((err, req, res, next) => {
-//     res.locals.error = err;
-//     res.status(err.status);
-//     console.log(`You have an error ${err.status} error.`);
-//     res.render("error");
-// });\
 
 app.use((err, req, res, next) => {
     const status = err.status || 500; //the default error handler when 404 no presented
     res.status(status); 
-    res.render('error', {error: err});
+    
     res.send(err.message);
-     //render error in error template
+    
 })
 
 // START SERVER, LISTENING ON PORT 3000
